@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "description": "X API reputation and spam-risk context panel.",
-  "main": "server.js",
   "scripts": {
     "check": "node --check server.js && node --check app.js && node --check lib/reputation.js && node --check api/scan.js && node --check api/x-health.js"
   },
