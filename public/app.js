@@ -1,3 +1,4 @@
+if (typeof document !== "undefined") {
 const profiles = {
   signal_scout: {
     name: "Maya Chen",
@@ -293,3 +294,4 @@ els.markReviewed.addEventListener("click", () => {
 });
 
 renderProfile(currentProfile);
+}
