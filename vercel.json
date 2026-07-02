@@ -1,14 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/api/scan",
-      "destination": "/api/scan"
-    },
-    {
-      "source": "/api/x-health",
-      "destination": "/api/x-health"
-    },
-    {
       "source": "/",
       "destination": "/index.html"
     }
