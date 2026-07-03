@@ -4,7 +4,11 @@
   "private": true,
   "description": "X API reputation and spam-risk context panel.",
   "scripts": {
-    "check": "node --check public/app.js && node --check lib/reputation.js && node --check api/scan.js && node --check api/x-health.js"
+    "build": "vite",
+    "check": "node --check src/main.js && node --check lib/reputation.js && node --check api/scan.js && node --check api/x-health.js"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
   },
   "engines": {
     "node": ">=20"
